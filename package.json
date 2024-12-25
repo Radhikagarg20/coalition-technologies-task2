@@ -1,0 +1,26 @@
+{
+  "name": "coalition-technologies-task3",
+  "version": "0.0.1",
+  "description": "custom Shopify theme",
+  "main": "index.js",
+  "scripts": {
+    "dev:watch": "theme watch --env=development",
+    "dev:open": "theme open --env=development",
+    "dev:get": "theme get --env=development",
+    "prod:watch": "theme watch --env=production",
+    "prod:open": "theme open --env=production",
+    "prod:get": "theme get --env=production",
+    "prod": "npm run prod:open && npm run prod:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Radhikagarg20/coalition-technologies-task3.git"  
+  },
+  "author": "Radhika Garg <radhikagarg104@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Radhikagarg20/coalition-technologies-task3/issues"
+  },
+  "homepage": "https://github.com/Radhikagarg20/coalition-technologies-task3#readme",
+  "devDependencies": {}
+}

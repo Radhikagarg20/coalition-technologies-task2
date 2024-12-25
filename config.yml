@@ -1,0 +1,6 @@
+production:
+  password: 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
+  theme_id: "108063654047"
+  store: coalition-technologies.myshopify.com
+  ignore_files:
+  - config/settings_data.json
